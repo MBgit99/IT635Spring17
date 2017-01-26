@@ -1,0 +1,37 @@
+    1  ls -la
+    2  sudo apt-get update
+    3  sudo apt-get install synaptik
+    4  sudo apt-get install synaptic
+    5  sudo synaptic
+    6  history
+    7  sudo synaptic
+    8  cd /
+    9  ls
+   10  history
+   11  ls -la
+   12  ~
+   13  cd ~
+   14  cd /var/log/
+   15  cd ../run/
+   16  ls
+   17  cs ~
+   18  cd ~
+   19  sudo synaptic
+   20  sudo aprt-get install mysql-server
+   21  sudo apt-get install mysql-server
+   22  mysql -u root -p
+   23  sudo apt-get install php
+   24  sudo apt-get install git
+   25  mkdir it635
+   26  cd it635/
+   27  git init
+   28  git status
+   29  mysqldump -u root -p > backup.sql
+   30  mysqldump -u root -p Classes > backup.sql
+   31  cat backup.sql 
+   32  git add backup.sql 
+   33  git status
+   34  git rm --cached backup.sql 
+   35  git status
+   36  git add backup.sql 
+   37  history > history.txt
