@@ -35,3 +35,14 @@
    35  git status
    36  git add backup.sql 
    37  history > history.txt
+   38  git add history.txt
+   39  git status
+   40  git commit
+   41  git config --global user.email "mb569@njit.edu"
+   42  git config --global user.name "Mike"
+   43  git commit -m "first commit, nothing important here"
+   44  sudo apt-get install gitk
+   45  sudo gitk
+   46  git remote add origin https://github.com/MBgit99/IT635Spring17.git
+   47  git push -u origin master
+   48  history > history.txt 
