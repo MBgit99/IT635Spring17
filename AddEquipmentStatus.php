@@ -15,7 +15,7 @@ echo "checking if machine in use: $machineID".PHP_EOL;
 $checkMachine = "select * from equipmentStatus WHERE (endDate = '0000-00-00') AND machineID = $machineID;";
 $checkResult = $db->query($checkMachine);
 if (!empty($checkResult)) {
-	exit("Machine in use!!!!\r\n");
+	exit("Machine in use!\r\n");
 }
 echo "attempting to insert record: $jobID, $machineID, $startDate, $endDate".PHP_EOL;
 if($endDate == 'none' || 'NONE') {
